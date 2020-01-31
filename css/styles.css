@@ -1,19 +1,20 @@
-body {
+body{
   text-align: center;
   font-family: "Roboto", monospace;
 }
 
-h1 {
+h1{
   margin: 0 auto;
-  font-family: "Major Mono Display", monospace;
+  font-family: cursive;
   font-size: 48px;
   margin: 2%;
 }
 
-h2 {
+h2{
+  font-family: cursive;
   font-size: 36px;
   font-weight: lighter;
-  margin: 2%;
+  margin: 2%
 }
 
 .container {
@@ -22,7 +23,7 @@ h2 {
   align-items: center;
 }
 
-.column {
+.column{
   height: 100%;
   width: 100%;
   flex-direction: column;
@@ -34,21 +35,20 @@ h2 {
   width: 456px;
 }
 
-.square {
-  border: 1px solid rgba(0, 0, 0, 0.75);
-  font-size: 96px;
+.square{
+  border: 1px solid rgba(0,0,0,0.75);
   height: 150px;
-  line-height: 150px;
   user-select: none;
-  width: 150px;
+  width: 456px;
 }
 
-.square:hover {
+.square:hover{
   background-color: lightgray;
   cursor: pointer;
 }
 
-#reset-button {
+#reset-button{
+  font-family: cursive;
   background-color: white;
   border: 1px solid black;
   color: black;

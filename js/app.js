@@ -29,9 +29,7 @@ const message = document.querySelector("h2");   // grab the subheader
 ///////////////////// EVENT LISTENERS ///////////////////////////////
 
 window.onload = init;
-
 document.getElementById("board").onclick = takeTurn;
-
 document.getElementById("reset-button").onclick = init;
 
 ///////////////////// FUNCTIONS /////////////////////////////////////

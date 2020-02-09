@@ -17,6 +17,9 @@ let board;
 let turn;
 let win;
 
+var pointsX = 0;
+var pointsY = 0;
+
 ///////////////////// CACHED ELEMENT REFERENCES /////////////////////
 
 const squares = Array.from(document.querySelectorAll("#board div"));
@@ -81,6 +84,14 @@ function getWinner() {
       board[condition[1]] === board[condition[2]]
     ) {
       winner = board[condition[0]];
+      if(winner === "X"){
+        pointsX++;
+        document.getElementById("scoreboard1").innerHTML = pointsX;
+      }
+      if(winner === "O"){
+        pointsY++;
+        document.getElementById("scoreboard2").innerHTML = pointsY;
+      }
     }
   });
 

@@ -26,15 +26,37 @@ h1 {
  */
 
 h2 {
-  font-size: 36px;
+  font-size: 38px;
   font-weight: lighter;
   margin: 2%;
+}
+
+h3{
+  margin: .2%;
+  text-decoration: underline;
+}
+
+h4{
+  margin: 1%;
+  font-size: 30px;
+}
+
+#scoreboard1{
+  background-color:  #f9e6ff;
+}
+
+#scoreboard2{
+  background-color:   #ecffe6;
 }
 
 /*
  * The container is a flex-box, which is a powerful layout tool. It grows
  * dyanamically, and allows us to position our elements with precision.
  */
+
+div{
+  background-color: white;
+}
 
 .container {
   display: flex;                /* set our display property to use flex-box */

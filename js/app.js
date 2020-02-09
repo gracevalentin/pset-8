@@ -74,16 +74,14 @@ function getWinner() {
   let winner = null;
 
   winningConditions.forEach(function(condition, index) {
-    if (
-      board[condition[0]] &&
-      board[condition[0]] === board[condition[1]] &&
-      board[condition[1]] === board[condition[2]]
-    ) {
+    if (board[condition[0]] &&
+        board[condition[0]] === board[condition[1]] &&
+        board[condition[1]] === board[condition[2]]) {
       winner = board[condition[0]];
       if(winner === "X"){
         pointsX++;
         document.getElementById("scoreboard1").innerHTML = pointsX;
-      }
+    }
       if(winner === "O"){
         pointsY++;
         document.getElementById("scoreboard2").innerHTML = pointsY;

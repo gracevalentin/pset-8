@@ -16,6 +16,7 @@ const winningConditions = [
 let board;
 let turn;
 let win;
+
 var pointsX = 0;
 var pointsY = 0;
 

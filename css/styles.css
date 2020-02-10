@@ -130,3 +130,7 @@ h4{
   color: white;
   cursor: pointer;
 }
+
+#board{
+  max-width: 100%;
+}

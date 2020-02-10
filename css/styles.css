@@ -7,6 +7,7 @@ body {
   text-align: center;
   font-family: "Roboto", monospace;
   margin: 1%;
+  max-width: 100%;
 }
 
 /*
